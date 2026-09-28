@@ -317,7 +317,7 @@ public final class AccountStore {
     }
 
     public boolean canUseOfflineMode() {
-        return LauncherSecurity.allowsOfflineProfileAuth() && hasMicrosoftLoginCompletedOnce();
+        true;
     }
 
     public void markMicrosoftLoginCompletedOnce() {
